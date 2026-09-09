@@ -1,0 +1,100 @@
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  color: #222;
+  background: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.55;
+}
+
+main {
+  width: min(960px, calc(100% - 32px));
+  margin: 42px auto 80px;
+}
+
+h1 {
+  margin: 0 0 28px;
+  text-align: center;
+  font-size: 28px;
+  line-height: 1.3;
+}
+
+h2 {
+  margin: 34px 0 10px;
+  font-size: 22px;
+}
+
+p { margin: 0 0 18px; }
+a { color: #0645ad; }
+
+hr {
+  margin: 0 0 18px;
+  border: 0;
+  border-top: 1px solid #aaa;
+}
+
+section {
+  margin-top: 48px;
+  scroll-margin-top: 20px;
+}
+
+.audio-table-wrap { overflow-x: auto; }
+
+.audio-table {
+  width: 100%;
+  min-width: 760px;
+  border-collapse: collapse;
+}
+
+.audio-table th,
+.audio-table td {
+  padding: 8px 10px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.audio-table th:first-child,
+.audio-table td:first-child {
+  width: 220px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.audio-table thead th { font-size: 14px; }
+
+.audio-table th small {
+  display: block;
+  color: #666;
+  font-size: 12px;
+  font-weight: normal;
+  white-space: nowrap;
+}
+
+.sample-text {
+  max-width: 150px;
+  margin: 3px auto 0;
+  color: #666;
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 1.3;
+}
+
+audio {
+  width: 145px;
+  height: 34px;
+}
+
+.notice {
+  color: #666;
+  font-style: italic;
+}
+
+#transcript-list li { margin-bottom: 8px; }
+
+@media (max-width: 600px) {
+  main { margin-top: 24px; }
+  h1 { font-size: 23px; }
+  h2 { font-size: 20px; }
+}
