@@ -86,6 +86,12 @@ audio {
   height: 34px;
 }
 
+.audio-load {
+  min-width: 5.5rem;
+  padding: 0.4rem 0.65rem;
+  font: inherit;
+}
+
 .notice {
   color: #666;
   font-style: italic;
