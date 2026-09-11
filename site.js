@@ -23,8 +23,8 @@ window.DEMO_MANIFEST = {"description":"Five identical fixed-test texts for all 1
 
   const publicNames = {
     "ground-truth": "Ground Truth",
-    es117_l1: "NanoSpeech (L1)",
-    es117_l1_ssim_gvar: "NanoSpeech (L1+SSIM+GVar)",
+    es117_l1: "GrainTTS (L1)",
+    es117_l1_ssim_gvar: "GrainTTS (L1+SSIM+GVar)",
     "efficientspeech-tiny": "EfficientSpeech-Tiny (L1)",
     es0_l1_ssim_gvar: "EfficientSpeech-Tiny (L1+SSIM+GVar)",
   };
@@ -178,4 +178,3 @@ window.DEMO_MANIFEST = {"description":"Five identical fixed-test texts for all 1
       .catch(showLoadError);
   }
 })();
-
